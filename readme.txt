@@ -1,7 +1,7 @@
 
 How to download one of these files and run them
 
-Example using arch-installer.sh: 
+Example using arch-installerV1.sh: 
 
 curl -o aiV1.sh https://raw.githubusercontent.com/734j/bashscripts/main/arch-installerV1.sh 
 
