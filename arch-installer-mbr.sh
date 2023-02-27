@@ -15,8 +15,13 @@ mount /dev/sda /mnt
 
 echo | pacstrap -K /mnt base linux linux-firmware
 
-arch-chroot /mnt 
+arch-chroot /mnt localectl set-locale LANG=sv_SE.UTF-8
+arch-chroot /mnt locale-gen
 
-echo "test!"
-echo "Test!"
+arch-chroot /mnt echo | passwd
+
+
+
+
+
 
