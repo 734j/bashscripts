@@ -20,7 +20,7 @@ arch-chroot /mnt locale-gen
 
 arch-chroot /mnt echo | passwd
 
-
+echo "This is a test"
 
 
 
