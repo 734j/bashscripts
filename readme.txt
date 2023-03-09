@@ -9,4 +9,6 @@ chmod +x <filename>.sh
 
 ./<filename>
 
+or...
 
+just clone the whole repository
