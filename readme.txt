@@ -1,12 +1,12 @@
 
 How to download one of these files and run them
 
-Example using arch-installer-mbr.sh: 
 
-curl -o aiV1.sh https://raw.githubusercontent.com/734j/bashscripts/main/arch-installer-mbr.sh 
 
-chmod +x aiV1.sh 
+curl -o <filename>.sh <link to the raw of the script you want to download> 
 
-./aiV1.sh
+chmod +x <filename>.sh 
+
+./<filename>
 
 
