@@ -1,0 +1,3 @@
+doas apt update
+doas apt upgrade
+doas snap refresh
